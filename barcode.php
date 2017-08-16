@@ -13,7 +13,7 @@
 		</form>
 		<div align="center" id="barcodewindow" style="display:none">
 			<h3 align="center">Here is our generated Barcode</h3>
-			<img id="barcode" alt="Generated Barcode" height="100" width="400"/>
+			<img id="barcode" alt="Generated Barcode" height="100" width="20"/>
 		</div>
 	</body>
 
