@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h1 align="center">Barcode Generator</h1>
-		<h2 align="left" style="margin-left:10%">Enter the text below to generate barcode</h2>
+		<h2 align="left" style="margin-right:20%">Enter the text below to generate barcode</h2>
 
 		<form action="javascript:generatebarcode()">
 			<input type="text" style="margin-left:10%" onunload="generatebarcode()" id="inputtext" autofocus/>
@@ -13,7 +13,7 @@
 		</form>
 		<div align="center" id="barcodewindow" style="display:none">
 			<h3 align="center">Here is our generated Barcode</h3>
-			<img id="barcode" alt="Generated Barcode" height="100" width="400"/>
+			<img id="barcode" alt="Generated Barcode" height="400" width="400"/>
 		</div>
 	</body>
 
